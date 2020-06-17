@@ -30,7 +30,7 @@ function! easyconstructor#easyconstructor(line1, line2) abort
 
   call append(a:line2, s:str1 . s:str2)
   execute a:line2+1
-  normal ==^
+  normal =h
 endfunction
 
 
